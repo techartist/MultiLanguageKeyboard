@@ -1,0 +1,47 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webnation.util.keyboard"
+    android:versionCode="1"
+    android:versionName="1.014" >
+
+    <uses-feature
+        android:name="android.hardware.faketouch"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="11" >
+    </uses-sdk>
+
+    <application
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/atlogo"
+        android:killAfterRestore="false"
+        android:label="MultiLanguage Keyboard"
+        android:restoreAnyVersion="true" >
+        <service
+            android:name="LatinIME"
+            android:label="MultiLanguage Keyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD" >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+        <activity
+            android:name="InputLanguageSelection" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.webnation.util.keyboard.INPUT_LANGUAGE_SELECTION" />  
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+                <category android:name="android.intent.category.DEFAULT" /> 
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

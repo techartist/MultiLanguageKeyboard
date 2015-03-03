@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:keyWidth="10%p"
+    android:keyHeight="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="@dimen/key_bottom_gap" >
+    
+    <Row android:extension="true">
+        <Key android:keyLabel="1" android:shiftLabel="!" />
+        <Key android:keyLabel="2" android:shiftLabel="\@" />
+        <Key android:keyLabel="3" android:shiftLabel="\#" />
+        <Key android:keyLabel="4" android:shiftLabel="&amp;" />
+        <Key android:keyLabel="5" android:shiftLabel="-" />
+        <Key android:keyLabel="6" android:shiftLabel="\'" />
+        <Key android:keyLabel="7" android:shiftLabel=":" />
+        <Key android:keyLabel="8" android:shiftLabel="&quot;" />
+        <Key android:keyLabel="9" android:shiftLabel="/" />
+        <Key android:keyLabel="0" android:shiftLabel="\?" />
+    </Row> 
+       
+    <Row>
+        <Key
+            android:keyIcon="@drawable/gurjarati_0acc"
+            android:codes="0x0ACC"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac8"
+            android:codes="0x0AC8"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0abe"
+            android:codes="0x0ABE"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac0"
+            android:codes="0x0AC0"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac2"
+            android:codes="0x0AC2"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aac"
+            android:codes="0x0AAC"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab9"
+            android:codes="0x0AB9"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a97"
+            android:codes="0x0A97"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa6"
+            android:codes="0x0AA6"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a9c"
+            android:codes="0x0A9C"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    
+       
+    <Row>
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa1"
+            android:codes="0x0AA1"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0abc"
+            android:codes="0x0ABC"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac9"
+            android:codes="0x0AC9"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0acb"
+            android:codes="0x0ACB"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac7"
+            android:codes="0x0AC7"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0acd"
+            android:codes="0x0ACD"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0abf"
+            android:codes="0x0ABF"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac1"
+            android:codes="0x0AC1"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aaa"
+            android:codes="0x0AAA"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab0"
+            android:codes="0x0AB0"
+            android:keyEdgeFlags="right" />
+    </Row>
+       
+    <Row>
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a95"
+            android:codes="0x0A95"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa4"
+            android:codes="0x0AA4"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a9a"
+            android:codes="0x0A9A"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a9f"
+            android:codes="0x0A9F"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a82"
+            android:codes="0x0A82"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aae"
+            android:codes="0x0AAE"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa8"
+            android:codes="0x0AA8"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab5"
+            android:codes="0x0AB5"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab2"
+            android:codes="0x0AB2"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab8"
+            android:codes="0x0AB8"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row android:keyWidth="14%p">
+       <Key
+            android:codes="@integer/key_fn"
+            android:keyIcon="@drawable/gurjarati_more"
+            android:keyWidth="15%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aaf"
+            android:codes="0x0AAF"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac3"
+            android:codes="0x0AC3"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a8d"
+            android:codes="0x0A8D"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac5"
+            android:codes="0x0AC5"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a9e"
+            android:codes="0x0A9E"
+            android:popupCharacters="" />
+        <Key
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:keyWidth="15%p"
+            android:isModifier="true"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row
+        android:keyboardMode="@+id/mode_normal"
+        android:rowEdgeFlags="bottom"
+   		android:keyHeight="12%p" >
+        <Key
+            android:codes="@integer/key_symbol"
+            android:keyLabel="@string/label_symbol_key"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel=","
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:keyWidth="40%p"
+            android:isModifier="true" />
+        <Key
+            android:keyLabel="."
+            android:keyIcon="@drawable/hint_popup"
+            android:popupKeyboard="@xml/popup_punctuation"
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>

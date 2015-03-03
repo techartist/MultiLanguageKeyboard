@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:horizontalGap="0px"
+    android:keyWidth="26.67%p"
+    android:verticalGap="@dimen/key_bottom_gap" >
+
+    <Row android:rowEdgeFlags="top" >
+        <Key
+            android:keyEdgeFlags="left"
+            android:keyLabel="1" />
+        <Key android:keyLabel="2" />
+        <Key android:keyLabel="3" />
+        <Key
+            android:isModifier="true"
+            android:keyEdgeFlags="right"
+            android:keyLabel=","
+            android:keyWidth="20%p" />
+    </Row>
+    <Row>
+        <Key
+            android:keyEdgeFlags="left"
+            android:keyLabel="4" />
+        <Key android:keyLabel="5" />
+        <Key android:keyLabel="6" />
+        <Key
+            android:isModifier="true"
+            android:keyEdgeFlags="right"
+            android:keyLabel="."
+            android:keyWidth="20%p" />
+    </Row>
+    <Row>
+        <Key
+            android:keyEdgeFlags="left"
+            android:keyLabel="7" />
+        <Key android:keyLabel="8" />
+        <Key android:keyLabel="9" />
+        <Key
+            android:codes="@integer/key_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:isModifier="true"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="20%p" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom" >
+        <Key
+            android:horizontalGap="26.67%p"
+            android:keyLabel="0" />
+        <Key
+            android:codes="@integer/key_return"
+            android:horizontalGap="26.67%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="20%p" />
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:keyWidth="8.33%p"
+    android:horizontalGap="0px"
+    android:verticalGap="@dimen/key_bottom_gap"
+>
+    <Row
+        android:rowEdgeFlags="top"
+    >
+        <Key
+            android:keyLabel="я"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters=""
+            android:keyWidth="8.75%p"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel="в"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="е"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="р"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="т"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ё" />
+        <Key
+            android:keyLabel="ъ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="у"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="и"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="о"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="п"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ш"
+            android:popupCharacters="" />            
+        <Key
+            android:keyLabel="щ"
+            android:popupCharacters="" 
+            android:keyWidth="8.75%p"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row
+     android:keyWidth="9.0909%p">
+        <Key
+            android:keyLabel="а"
+            android:keyWidth="8.75%p"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel="с"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ы" />
+        <Key
+            android:keyLabel="д" />
+        <Key
+            android:keyLabel="ф" />
+        <Key
+            android:keyLabel="г" />
+        <Key
+            android:keyLabel="х" />
+        <Key
+            android:keyLabel="й" />
+        <Key
+            android:keyLabel="к" />
+        <Key
+            android:keyLabel="л" />
+        <Key
+            android:keyLabel="ю" />
+        <Key
+            android:keyLabel="ч"
+            android:popupKeyboard="@xml/kbd_popup_template"            
+            android:keyWidth="8.75%p"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row
+        android:keyWidth="10.92%p"
+    >
+        <Key
+            android:codes="@integer/key_shift"
+            android:keyIcon="@drawable/sym_keyboard_shift"
+            android:iconPreview="@drawable/sym_keyboard_feedback_shift"
+            android:keyWidth="11.75%p"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel="з" />
+        <Key
+            android:keyLabel="ь" />
+        <Key
+            android:keyLabel="ц" />
+        <Key
+            android:keyLabel="ж" />
+        <Key
+            android:keyLabel="б" />
+        <Key
+            android:keyLabel="н" />
+        <Key
+            android:keyLabel="м" />       
+        <Key
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:keyWidth="11.75%p"
+            android:isModifier="true"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row
+        android:keyboardMode="@+id/mode_normal"
+        android:keyWidth="10%p"
+        android:rowEdgeFlags="bottom"
+    >
+        <Key
+            android:codes="@integer/key_symbol"
+            android:keyLabel="@string/label_symbol_key"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel=","
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:keyWidth="40%p"
+            android:isModifier="true" />
+        <Key
+            android:keyLabel="."
+            android:keyIcon="@drawable/hint_popup"
+            android:popupKeyboard="@xml/popup_punctuation"
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>

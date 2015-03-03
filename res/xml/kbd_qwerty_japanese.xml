@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="@dimen/key_bottom_gap" >
+    
+    <Row android:extension="true">
+        <Key android:keyLabel="1" android:shiftLabel="!" />
+        <Key android:keyLabel="2" android:shiftLabel="\@" />
+        <Key android:keyLabel="3" android:shiftLabel="\#" />
+        <Key android:keyLabel="4" android:shiftLabel="&amp;" />
+        <Key android:keyLabel="5" android:shiftLabel="-" />
+        <Key android:keyLabel="6" android:shiftLabel="\'" />
+        <Key android:keyLabel="7" android:shiftLabel=":" />
+        <Key android:keyLabel="8" android:shiftLabel="&quot;" />
+        <Key android:keyLabel="9" android:shiftLabel="/" />
+        <Key android:keyLabel="0" android:shiftLabel="\?" />
+    </Row> 
+       
+    <Row android:keyWidth="8%p">
+        <Key
+            android:keyWidth="10%p"
+            android:keyLabel="あ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ぁ"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel="い"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ぃ" />
+        <Key
+            android:keyLabel="う"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ぅ" />
+        <Key
+            android:keyLabel="う゛"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="え"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ぇ" />
+        <Key
+            android:keyLabel="お"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ぉ" />
+        <Key
+            android:keyLabel="か"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="が" />
+        <Key
+            android:keyLabel="き"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ぎ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="く"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ぐ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyWidth="10%p"
+            android:keyLabel="け"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="ヶ"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row android:keyWidth="8%p">
+        <Key
+            android:keyWidth="10%p"
+            android:keyLabel="げ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters=""
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel="こ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ご"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="さ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ざ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="し"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="じ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="す"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ず"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="せ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ぜ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyWidth="10%p"
+            android:keyLabel="そ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters=""
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row android:keyWidth="7.5%p">
+        <Key
+            android:keyLabel="ぞ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters=""
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel="た"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="だ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ち"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ぢ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="つ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="っ" />
+        <Key
+            android:keyLabel="づ"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="て"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="で"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="と"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="ど"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:keyLabel="な"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="" />
+        <Key
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:keyWidth="10%p"
+            android:isModifier="true"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row
+        android:keyboardMode="@+id/mode_normal"
+        android:rowEdgeFlags="bottom" >
+        <Key
+            android:codes="@integer/key_symbol"
+            android:keyLabel="@string/label_symbol_key"
+            android:keyWidth="10%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="@integer/key_fn"
+            android:keyLabel="もっと"
+            android:keyWidth="15%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel=","
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:keyWidth="35%p"
+            android:isModifier="true" />
+        <Key
+            android:keyLabel="."
+            android:keyIcon="@drawable/hint_popup"
+            android:popupKeyboard="@xml/popup_punctuation"
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>

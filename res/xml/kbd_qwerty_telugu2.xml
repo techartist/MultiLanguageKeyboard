@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:keyWidth="10%p"
+    android:keyHeight="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="@dimen/key_bottom_gap" >
+    
+    <Row android:extension="true">
+        <Key android:keyLabel="1" android:shiftLabel="!" />
+        <Key android:keyLabel="2" android:shiftLabel="\@" />
+        <Key android:keyLabel="3" android:shiftLabel="\#" />
+        <Key android:keyLabel="4" android:shiftLabel="&amp;" />
+        <Key android:keyLabel="5" android:shiftLabel="-" />
+        <Key android:keyLabel="6" android:shiftLabel="\'" />
+        <Key android:keyLabel="7" android:shiftLabel=":" />
+        <Key android:keyLabel="8" android:shiftLabel="&quot;" />
+        <Key android:keyLabel="9" android:shiftLabel="/" />
+        <Key android:keyLabel="0" android:shiftLabel="\?" />
+    </Row> 
+ 
+    <Row>
+        <Key
+            android:keyIcon="@drawable/telugu_0c36"
+            android:codes="0x0C36"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c03"
+            android:codes="0x0C03" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c0b"
+            android:codes="0x0C0B" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c14"
+            android:codes="0x0C14" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c10"
+            android:codes="0x0C10" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c06"
+            android:codes="0x0C06" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c08"
+            android:codes="0x0C08" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c0a"
+            android:codes="0x0C0A" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c2d"
+            android:codes="0x0C2D" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c19"
+            android:codes="0x0C19"
+            android:keyEdgeFlags="right" />
+    </Row>
+      
+	<Row>
+        <Key
+            android:keyIcon="@drawable/telugu_0c18"
+            android:codes="0x0C18"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c27"
+            android:codes="0x0C27" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c1d"
+            android:codes="0x0C1D" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c22"
+            android:codes="0x0C22" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c13"
+            android:codes="0x0C13" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c0f"
+            android:codes="0x0C0F" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c05"
+            android:codes="0x0C05" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c07"
+            android:codes="0x0C07" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c09"
+            android:codes="0x0C09" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c2b"
+            android:codes="0x0C2B"
+            android:keyEdgeFlags="right" />
+    </Row>
+       
+    <Row>
+        <Key
+            android:keyIcon="@drawable/telugu_0c31"
+            android:codes="0x0C31"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c16"
+            android:codes="0x0C16" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c25"
+            android:codes="0x0C25" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c1b"
+            android:codes="0x0C1B" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c20"
+            android:codes="0x0C20" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c0e"
+            android:codes="0x0C0E" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c01"
+            android:codes="0x0C01" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c23"
+            android:codes="0x0C23" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c33"
+            android:codes="0x0C33" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c44"
+            android:codes="0x0C44"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row android:keyWidth="14%p">
+       <Key
+            android:codes="@integer/key_fn"
+            android:keyIcon="@drawable/telugu_more"
+            android:keyWidth="15%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c56"
+            android:codes="0x0C56" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c55"
+            android:codes="0x0C55" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c0c"
+            android:codes="0x0C0C" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c61"
+            android:codes="0x0C61" />
+        <Key
+            android:keyIcon="@drawable/telugu_0c60"
+            android:codes="0x0C60" />
+        <Key
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:keyWidth="15%p"
+            android:isModifier="true"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row
+        android:rowEdgeFlags="bottom"
+   		android:keyHeight="12%p" >
+        <Key
+            android:codes="@integer/key_symbol"
+            android:keyLabel="@string/label_symbol_key"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel=","
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:keyWidth="40%p"
+            android:isModifier="true" />
+        <Key
+            android:keyLabel="."
+            android:keyIcon="@drawable/hint_popup"
+            android:popupKeyboard="@xml/popup_punctuation"
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>

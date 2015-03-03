@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard 
+    xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:keyWidth="10%p"
+    android:keyHeight="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="@dimen/key_bottom_gap" >
+   
+    <Row>
+        <Key android:codes="12549" android:keyLabel="ㄅ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12553" android:keyLabel="ㄉ"/>
+        <Key android:codes="711" android:keyLabel="ˇ"/>
+        <Key android:codes="715" android:keyLabel="ˋ"/>
+        <Key android:codes="12563" android:keyLabel="ㄓ"/>
+        <Key android:codes="714" android:keyLabel="ˊ"/>
+        <Key android:codes="729" android:keyLabel="˙"/>
+        <Key android:codes="12570" android:keyLabel="ㄚ"/>
+        <Key android:codes="12574" android:keyLabel="ㄞ"/>
+        <Key android:codes="12578" android:keyLabel="ㄢ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12550" android:keyLabel="ㄆ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12554" android:keyLabel="ㄊ"/>
+        <Key android:codes="12557" android:keyLabel="ㄍ"/>
+        <Key android:codes="12560" android:keyLabel="ㄐ"/>
+        <Key android:codes="12564" android:keyLabel="ㄔ"/>
+        <Key android:codes="12567" android:keyLabel="ㄗ"/>
+        <Key android:codes="12583" android:keyLabel="ㄧ"/>
+        <Key android:codes="12571" android:keyLabel="ㄛ"/>
+        <Key android:codes="12575" android:keyLabel="ㄟ"/>
+        <Key android:codes="12579" android:keyLabel="ㄣ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12551" android:keyLabel="ㄇ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12555" android:keyLabel="ㄋ"/>
+        <Key android:codes="12558" android:keyLabel="ㄎ"/>
+        <Key android:codes="12561" android:keyLabel="ㄑ"/>
+        <Key android:codes="12565" android:keyLabel="ㄕ"/>
+        <Key android:codes="12568" android:keyLabel="ㄘ"/>
+        <Key android:codes="12584" android:keyLabel="ㄨ"/>
+        <Key android:codes="12572" android:keyLabel="ㄜ"/>
+        <Key android:codes="12576" android:keyLabel="ㄠ"/>
+        <Key android:codes="12580" android:keyLabel="ㄤ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="12552" android:keyLabel="ㄈ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12556" android:keyLabel="ㄌ"/>
+        <Key android:codes="12559" android:keyLabel="ㄏ"/>
+        <Key android:codes="12562" android:keyLabel="ㄒ"/>
+        <Key android:codes="12566" android:keyLabel="ㄖ"/>
+        <Key android:codes="12569" android:keyLabel="ㄙ"/>
+        <Key android:codes="12585" android:keyLabel="ㄩ"/>
+        <Key android:codes="12573" android:keyLabel="ㄝ"/>
+        <Key android:codes="12577" android:keyLabel="ㄡ"/>
+        <Key android:codes="12581" android:keyLabel="ㄥ" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row  
+        android:keyboardMode="@+id/mode_normal"
+        android:rowEdgeFlags="bottom"
+   		android:keyHeight="12%p" >
+        <Key 
+            android:codes="@integer/key_extra_kbdreturn"
+            android:keyWidth="10%p"
+            android:keyIcon="@drawable/changekeyboard"
+            android:isModifier="true"/>
+        <Key 
+            android:codes="@integer/key_symbol"
+            android:keyLabel="@string/label_symbol_key"
+            android:keyWidth="10%p"
+            android:isModifier="true"/>
+        <Key 
+            android:keyLabel="."
+            android:keyIcon="@drawable/hint_popup"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="；，─（）“”：～…「」？！"
+            android:isModifier="true"/>
+        <Key 
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:keyWidth="30%p"
+            android:isModifier="true"/>
+        <Key
+            android:keyLabel="OK"
+            android:codes="@integer/composing_ok"/>
+        <Key 
+            android:codes="12582" 
+            android:keyLabel="ㄦ"/>
+        <Key 
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:keyWidth="10%p"
+            android:isModifier="true"
+            android:isRepeatable="true"/>
+        <Key 
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyWidth="10%p"
+            android:isModifier="true" 
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

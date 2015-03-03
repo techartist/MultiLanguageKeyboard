@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard 
+    xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:keyHeight="13%p"
+    android:verticalGap="@dimen/key_bottom_gap" >
+   
+    <Row>
+        <Key android:codes="25163" android:keyLabel="手" android:keyEdgeFlags="left"/>
+        <Key android:codes="30000" android:keyLabel="田"/>
+        <Key android:codes="27700" android:keyLabel="水"/>
+        <Key android:codes="21475" android:keyLabel="口"/>
+        <Key android:codes="24319" android:keyLabel="廿"/>
+        <Key android:codes="21340" android:keyLabel="卜"/>
+        <Key android:codes="23665" android:keyLabel="山"/>
+        <Key android:codes="25096" android:keyLabel="戈"/>
+        <Key android:codes="20154" android:keyLabel="人"/>
+        <Key android:codes="24515" android:keyLabel="心" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row
+    	android:keyWidth="11%p">
+        <Key android:codes="26085" android:keyLabel="日" android:keyEdgeFlags="left" android:keyWidth="11.5%p"/>
+        <Key android:codes="23608" android:keyLabel="尸"/>
+        <Key android:codes="26408" android:keyLabel="木"/>
+        <Key android:codes="28779" android:keyLabel="火"/>
+        <Key android:codes="22303" android:keyLabel="土"/>
+        <Key android:codes="31481" android:keyLabel="竹"/>
+        <Key android:codes="21313" android:keyLabel="十"/>
+        <Key android:codes="22823" android:keyLabel="大"/>
+        <Key android:codes="20013" android:keyLabel="中" android:keyEdgeFlags="right" android:keyWidth="11.5%p"/>
+    </Row>
+    
+    <Row
+   		android:keyWidth="12%p">
+        <Key android:codes="38627" android:keyLabel="難" android:keyEdgeFlags="left"/>
+        <Key android:codes="37329" android:keyLabel="金"/>
+        <Key android:codes="22899" android:keyLabel="女"/>
+        <Key android:codes="26376" android:keyLabel="月"/>
+        <Key android:codes="24339" android:keyLabel="弓"/>
+        <Key android:codes="19968" android:keyLabel="一"/>
+        <Key android:codes="65311" android:keyLabel="？" />
+        <Key 
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:keyWidth="16%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right"
+            android:isRepeatable="true"/>
+    </Row>
+    
+    <Row  
+        android:keyboardMode="@+id/mode_normal"
+        android:rowEdgeFlags="bottom">
+        <Key 
+            android:codes="@integer/key_extra_kbdreturn"
+            android:keyWidth="12.5%p"
+            android:keyIcon="@drawable/changekeyboard"
+            android:isModifier="true"/>
+        <Key 
+            android:codes="@integer/key_symbol"
+            android:keyLabel="@string/label_symbol_key"
+            android:keyWidth="12.5%p"
+            android:isModifier="true"/>
+        <Key 
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:keyWidth="40%p"
+            android:isModifier="true"/>
+        <Key
+            android:keyLabel="OK"
+            android:codes="@integer/composing_ok"/>
+        <Key 
+            android:keyWidth="10%p"
+            android:keyLabel="."
+            android:keyIcon="@drawable/hint_popup"
+            android:popupKeyboard="@xml/kbd_popup_template"
+            android:popupCharacters="，─（）“”：～…「」？！"
+            android:isModifier="true"/>
+        <Key 
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyWidth="15%p"
+            android:isModifier="true" 
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,8 @@
+-keep class com.assistek.util.keyboard.BinaryDictionary {
+  int mDictLength;
+  <init>(...); 
+}
+
+-keep class com.assistek.util.keyboard.Suggest {
+  <init>(...);
+}

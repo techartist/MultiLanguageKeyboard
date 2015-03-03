@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/com.assistek.util.keyboard"
+    android:keyWidth="10%p"
+    android:keyHeight="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="@dimen/key_bottom_gap" >
+    
+    <Row android:extension="true">
+        <Key android:keyLabel="1" android:shiftLabel="!" />
+        <Key android:keyLabel="2" android:shiftLabel="\@" />
+        <Key android:keyLabel="3" android:shiftLabel="\#" />
+        <Key android:keyLabel="4" android:shiftLabel="&amp;" />
+        <Key android:keyLabel="5" android:shiftLabel="-" />
+        <Key android:keyLabel="6" android:shiftLabel="\'" />
+        <Key android:keyLabel="7" android:shiftLabel=":" />
+        <Key android:keyLabel="8" android:shiftLabel="&quot;" />
+        <Key android:keyLabel="9" android:shiftLabel="/" />
+        <Key android:keyLabel="0" android:shiftLabel="\?" />
+    </Row> 
+       
+    <Row>
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab7"
+            android:codes="0x0AB7"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab6"
+            android:codes="0x0AB6"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a83"
+            android:codes="0x0A83"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a8b"
+            android:codes="0x0A8B"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a94"
+            android:codes="0x0A94"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a90"
+            android:codes="0x0A90"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a86"
+            android:codes="0x0A86"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a88"
+            android:codes="0x0A88"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a8a"
+            android:codes="0x0A8A"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aad"
+            android:codes="0x0AAD"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    
+       
+    <Row>
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a99"
+            android:codes="0x0A99"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a98"
+            android:codes="0x0A98"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa7"
+            android:codes="0x0AA7"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a9d"
+            android:codes="0x0A9D"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa2"
+            android:codes="0x0AA2"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a91"
+            android:codes="0x0A91"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a93"
+            android:codes="0x0A93"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a8f"
+            android:codes="0x0A8F"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a85"
+            android:codes="0x0A85"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a87"
+            android:codes="0x0A87"
+            android:keyEdgeFlags="right" />
+    </Row>
+       
+    <Row>
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a89"
+            android:codes="0x0A89"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aab"
+            android:codes="0x0AAB"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a96"
+            android:codes="0x0A96"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa5"
+            android:codes="0x0AA5"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a9b"
+            android:codes="0x0A9B"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa0"
+            android:codes="0x0AA0"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0a81"
+            android:codes="0x0A81"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0aa3"
+            android:codes="0x0AA3"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ab3"
+            android:codes="0x0AB3"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0964"
+            android:codes="0x0964"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row android:keyWidth="14%p"> 
+       <Key
+            android:codes="@integer/key_fn"
+            android:keyIcon="@drawable/gurjarati_more"
+            android:keyWidth="15%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0965"
+            android:codes="0x0965"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ad0"
+            android:codes="0x0AD0"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0abd"
+            android:codes="0x0ABD"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ae0"
+            android:codes="0x0AE0"
+            android:popupCharacters="" />
+        <Key
+            android:keyIcon="@drawable/gurjarati_0ac4"
+            android:codes="0x0AC4"
+            android:popupCharacters="" />
+        <Key
+            android:codes="@integer/key_delete"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:keyWidth="15%p"
+            android:isModifier="true"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <Row
+        android:rowEdgeFlags="bottom"
+   		android:keyHeight="12%p" >
+        <Key
+            android:codes="@integer/key_symbol"
+            android:keyLabel="@string/label_symbol_key"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:keyLabel=","
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_space"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:keyWidth="40%p"
+            android:isModifier="true" />
+        <Key
+            android:keyLabel="."
+            android:keyIcon="@drawable/hint_popup"
+            android:popupKeyboard="@xml/popup_punctuation"
+            android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_return"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyWidth="20%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>
